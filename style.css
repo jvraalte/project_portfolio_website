@@ -1,7 +1,10 @@
 body {
 	width: 960px;
 	margin: 0 auto;
+/*	background-color: #8a0027;
+*/	background-image: url("http://www.transparenttextures.com/patterns/3px-tile.png");
 }
+
 
 ul.nav {
 	width: 960px;
@@ -9,6 +12,7 @@ ul.nav {
 	overflow: hidden;
 	background-color: #cc0000;
 	margin-top: 10px;
+	padding: 0;
 }
 
 ul.nav li {
@@ -29,4 +33,20 @@ ul.nav li a {
 
 ul.nav li a:hover {
 	color: black;
+}
+
+.header img {
+	width: 960px;
+	height: 400px;
+	margin: 0 auto;
+	opacity: 0.6;
+}
+
+div {
+
+}
+
+h1 {
+	text-align: center;
+	color: #cc0000;
 }
