@@ -1,8 +1,7 @@
 body {
 	width: 960px;
 	margin: 0 auto;
-/*	background-color: #8a0027;
-*/	background-image: url("http://www.transparenttextures.com/patterns/3px-tile.png");
+	background-image: url("http://www.transparenttextures.com/patterns/3px-tile.png");
 }
 
 
@@ -69,12 +68,12 @@ h1 {
     @media only screen and (max-width : 480px) {
     	body {
     		width: 100%;
-    		background-color: #b30000;
-    		background-image: none;
+    		background-color: #8a0027;
     	}
     	ul.nav {
 			width: 100%;
 			margin: 0 auto;
+			background-color: black;
 		}
 
 		ul.nav li a {
